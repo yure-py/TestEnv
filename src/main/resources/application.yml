@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Solar-Erp
+  datasource:
+    url: jdbc:mysql://localhost:3306/solarErp
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    check-template-location: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
